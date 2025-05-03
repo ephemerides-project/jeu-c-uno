@@ -1,0 +1,56 @@
+# Dossiers de build
+/cmake-build-*/
+/build/
+/out/
+
+# Fichiers et dossiers CLion
+/.idea/
+*.iml
+*.iws
+*.ipr
+
+# Fichiers de compilation
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.dylib
+*.a
+*.lib
+
+# Dossiers et fichiers de dépendances
+/vcpkg/
+/vcpkg_installed/
+
+# Fichiers de cache CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Fichiers de configuration spécifiques
+*.log
+*.tlog
+*.pdb
+*.ilk
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Dossiers générés par Visual Studio
+.vs/
+/Debug/
+/Release/
+/x64/
+/x86/
+ipch/

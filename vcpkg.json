@@ -1,0 +1,7 @@
+{
+  "name": "uno",
+  "version-string": "1.0.0",
+  "dependencies": [
+    "sfml"
+  ]
+}
